@@ -16,16 +16,16 @@ D.  Describe how the robot maintains an internal representation of the environme
 E.  Explain how the robot implements the following four concepts to achieve its goal: 
 
 •	reasoning 
-	The robot implements reasoning by using the data it collects via its various proximity sensors to respond to the environment. When an obstacle is detected, the robot decides to turn to avoid it. 
+    The robot implements reasoning by using the data it collects via its various proximity sensors to respond to the environment. When an obstacle is detected, the robot decides to turn to avoid it. 
 
 •	knowledge representation 
-	The robot implements knowledge representation by using the environmental information gained via its sensors to make decisions and reports. The proximity sensor helps the robot map out the path it will take to avoid obstacles in its path. Also, the fire and person detection allows the robot to report the presence of these elements in its environment. 
+    The robot implements knowledge representation by using the environmental information gained via its sensors to make decisions and reports. The proximity sensor helps the robot map out the path it will take to avoid obstacles in its path. Also, the fire and person detection allows the robot to report the presence of these elements in its environment. 
 
 •	uncertainty 
-	The robot implements uncertainty when it needs to decide on a path despite lacking a complete map of its environment. At times, proximity sensor readings are uncertain due to noise from partially blocked paths or lighting conditions. Currently uncertainty is responded to with caution, and the robot attempts to map a path of avoidance around obstacles even if they are possible false negatives. 
+    The robot implements uncertainty when it needs to decide on a path despite lacking a complete map of its environment. At times, proximity sensor readings are uncertain due to noise from partially blocked paths or lighting conditions. Currently uncertainty is responded to with caution, and the robot attempts to map a path of avoidance around obstacles even if they are possible false negatives. 
 
 •	intelligence 
-	The robot implements intelligence by moving autonomously though the disaster environment. It processes sensor data constantly and creates a path to avoid obstacles. 
+    The robot implements intelligence by moving autonomously though the disaster environment. It processes sensor data constantly and creates a path to avoid obstacles. 
 
 
 F.  Explain how the prototype could be further improved, including how reinforced learning and advanced search algorithms can improve the prototype’s performance and learning. 
